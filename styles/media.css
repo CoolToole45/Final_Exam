@@ -1,0 +1,414 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    /* Header Start */
+    
+    .introductionSection {
+        background-color: #DDDDDD;
+    }
+    
+    .aboutMe {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px 0;
+        padding-top: 48px;
+    }
+    
+    .rocaText {
+        font-size: 55px;
+    }
+    
+    .rocaText:hover {
+        color: #E93656;
+    }
+    
+    .rocaText span {
+        color: #0081FF;
+    }
+    
+    .resumeTemplate {
+        color: #B3B3B3;
+        font-size: 15px;
+    }
+    
+    .aboutMe01Text p {
+        font-size: 158px;
+        text-align: center;
+    }
+    
+    .aboutMe01Text span {
+        z-index: 1;
+        position: relative;
+        font-size: 52px;
+        color: #373737;
+        top: -100px;
+    }
+    
+    .aboutMe01Text span:hover {
+        color: #E93656;
+    }
+    
+    .slider {
+        display: block;
+        width: 20%;
+        max-width: 800px;
+        margin-right: 200px;
+    }
+    
+    .sliderArea img {
+        width: 100%;
+    }
+    
+    .hiSection {
+        display: flex;
+        justify-content: center;
+        margin-top: 20vh;
+        margin-left: 25vw;
+    }
+    
+    .personalInfo {
+        font-family: "regular";
+        font-size: 50px;
+        width: 35%;
+    }
+    
+    .hiIamDiv {
+        margin: 20px 0;
+    }
+    
+    .hiIamDiv p {
+        font-size: 30px;
+        margin: 20px 0 25px;
+    }
+    
+    nav img {
+        border: none;
+        background-color: #DDDDDD;
+        width: 15%;
+        transition: width 0.5s;
+    }
+    
+    nav img:hover {
+        width: 20%;
+        border-bottom: 5px solid #E93656;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    .satisfied100 {
+        display: flex;
+        justify-content: end;
+        margin: 10vh 5vw 0 0;
+        padding-bottom: 73px;
+        font-size: 24px;
+    }
+    
+    .satisfied100 p {
+        border-bottom: 5px solid #E93656;
+        border-radius: 3px;
+        padding: 0 50px 25px 0;
+    }
+    
+    .satisfied100 span {
+        color: #E93656;
+    }
+    /* Header End */
+    
+    
+    
+    /* About Me Section Start */
+    .aboutMeDetails{
+        margin: 17vh auto;
+    }
+    
+    .overallContainer {
+        display: flex;
+        margin: 0 5vw;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .myDesc {
+        width: 22%;
+        text-align: right;
+        margin-right: 3.4vw;
+    }
+    
+    .myDescTitle h1 {
+        font-size: 40px;
+        color: #222222;
+        padding-bottom: 6px;
+    }
+    
+    .myDescTitle span {
+        font-size: 14px;
+        color: #DAAE19;
+    }
+    
+    .myDescContent {
+        font-size: 15px;
+        margin-top: 6vh;
+        margin-bottom: 10vh;
+        color: #555555;
+    
+    }
+    
+    .hireMeBtn button {
+        cursor: pointer;
+        padding: 13px 46px 13px 53px;
+        border: none;
+        font-size: 15px;
+        color: white;
+        background-color: #E93656;
+        border: 4px solid #E93656;
+    }
+    
+    .hireMeBtn button:hover {
+        color: #E93656;
+        background-color: white;
+        border: 4px solid #E93656;
+    }
+    
+    .myPicture {
+        width: 30%;
+        display: block;
+    }
+    
+    .myPicture img{
+        width: 100%;
+    }
+    
+    .myStats{
+        margin-left: 40px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+    .statProgression{
+        width: 300px;
+    }
+    .progressionBarDiv{
+        width: 100%;
+        height: 10px;
+        background-color: #F0F0F0;
+    }
+    .progressBar{
+        height: 100%;
+        margin-top: 10px;
+        background-color:#E93656;
+        opacity: -1;
+        transition: .6s;
+    }
+    .statBars{
+        margin-bottom: 25px;
+    }
+    h3{
+        font-size: 20px;
+        color: #555555;
+    }
+    h3 span{
+        color:#E93656;
+    }
+    /* About Me Section End */
+    
+    
+    
+    /* Contact Info Div Start */
+    .myContactInfo {
+        margin-top: 100px;
+        height: 210px;
+        background-color: #131A36;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .contactInfo {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+    
+    .infoText {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+    .myContactInfo h2 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    
+    .myContactInfo span {
+        font-size: 14px;
+        color: #DFDFDF;
+        margin-bottom: 5px;
+    }
+    /* Contact Info Div End */
+    
+    
+    
+    /* Service Pannel Start */
+    .services {
+        margin: 200px 0 160px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .serviceOptions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+    }
+    
+    .sevisePannel {
+        width: 285px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFAFA;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 0 0 10px 10px;
+    }
+    
+    .sevisePannel:hover .activeService,
+    .sevisePannel:active .activeService{
+        opacity: 1;
+    }
+    
+    .activeService {
+        opacity: 0;
+        position: absolute;
+        width: 285px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #15263E;
+    }
+    
+    .activeService h3 {
+        font-size: 22px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .activeService p {
+        margin-top: 19px!important;
+        color: #ECECEC;
+        text-align: center!important;
+        width: 80%;
+    }
+    
+    .sevisePannel p {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 16px;
+    }
+    /* Service Pannel End */
+    
+    
+    
+    /* Recommendations Start */
+    
+    .recommedations {
+        height: 570px;
+        color: #FFFFFF;
+        background-image: url(/img/clip.jpg);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .recomSliderContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .recomSliderItem {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .recomSliderItem p {
+        width: 30%;
+        margin-right: 50px;
+        text-align: right;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .authorDetails img {
+        width: 25%;
+    }
+    
+    .authorImg {
+        margin-right: 50px;
+        width: 10%;
+    }
+    
+    .authorDetails {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .authorJob {
+        margin: 38px 0 9px;
+        color: #E93656;
+        font-size: 13px;
+    }
+    
+    .authorName {
+        font-size: 28px;
+    }
+    
+    .sliderControlDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sliderController {
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 5px;
+        margin: 15px 0;
+    }
+    
+    .active, .sliderController:hover {
+        cursor: pointer;
+        border-color: #E93656;
+    }
+    
+    /* Recommendations End */
+}

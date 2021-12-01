@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Introduction Section Start */
+.introductionSection {
+    background-color: #DDDDDD;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw;
+    padding: 2vh 0;
+}
+
+.rocaText {
+    font-size: 5vh;
+    font-family: "Poppins-ExtraBold";
+}
+
+.rocaText span {
+    color: #0081FF;
+}
+
+.resumeTemplate {
+    color: #B3B3B3;
+    font-size: 1.5vh;
+    font-family: "Montserrat-Regular";
+}
+
+.aboutMe01Text p {
+    font-family: "Poppins-ExtraBold";
+    font-size: 10vh;
+    text-align: center;
+}
+
+.aboutMe01Text span {
+    font-size: 2.3vh;
+    font-family: "Poppins-ExtraBold";
+    color: #373737;
+    position: absolute;
+    transform: translateY(-60px);
+}
+
+.slider {
+    display: none;
+}
+
+.hiSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.personalInfo {
+    font-family: "regular";
+    font-size: 5vh;
+    text-align: center;
+}
+
+.hiIamDiv {
+    margin: 20px 0;
+}
+
+.hiIamDiv span {
+    font-family: "Glacial-Bold";
+}
+
+.hiIamDiv p {
+    font-size: 3vh;
+    margin: 20px 0 25px;
+    font-family: "Glacial-Regular";
+}
+
+nav img {
+    width: 15%;
+    border: 3px solid black;
+    background-color: white;
+}
+
+li {
+    display: inline;
+}
+
+.satisfied100 {
+    display: flex;
+    justify-content: end;
+    margin: 8vh 5vw 0 0;
+    padding-bottom: 5vh;
+    font-family: "Montserrat-Bold";
+    font-size: 2vh;
+}
+
+.satisfied100 p {
+    border-bottom: 5px solid #E93656;
+    border-radius: 3px;
+    padding: 0 5vh 2vw 0;
+}
+
+.satisfied100 span {
+    color: #E93656;
+}
+/* Introduction Section End */
+
+
+/* About Me Details Section Start */
+.aboutMeDetails{
+    margin: 17vh auto;
+}
+
+.overallContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3vw;
+}
+
+.myDesc {
+    text-align: right;
+    margin-right: 3.4vw;
+}
+
+.myDescTitle h1 {
+    font-size: 5vh;
+    font-family: "Glacial-Bold";
+    color: #222222;
+    padding-bottom: 1.5vh;
+}
+
+.myDescTitle span {
+    font-size: 2vh;
+    font-family: "Muli-Regular";
+    color: #DAAE19;
+}
+
+.myDescContent {
+    font-size: 2vh;
+    font-family: "Muli-Regular";
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    color: #555555;
+}
+
+.hireMeBtn button {
+    cursor: pointer;
+    padding: 2vh 12vw;
+    border: none;
+    font-family: "Glacial-Bold";
+    font-size: 2vh;
+    color: white;
+    background-color: #E93656;
+    border: 4px solid #E93656;
+}
+
+.hireMeBtn button:hover,
+.hireMeBtn button:active {
+    color: #E93656;
+    background-color: white;
+    border: 4px solid #E93656;
+}
+
+.myPicture {
+    display: none;
+}
+
+.myStats{
+    margin-top: 10vh;
+    margin-left: 11vw;
+    font-family: "Glacial-Bold";
+    display: flex;
+    align-items: center;
+}
+
+.statProgression{
+    width: 300px;
+}
+
+.progressionBarDiv{
+    width: 100%;
+    height: 1vh;
+    background-color: #F0F0F0;
+}
+
+.progressBar{
+    height: 100%;
+    margin-top: 2vh;
+    background-color:#E93656;
+    opacity: -1;
+    transition: .6s;
+}
+
+.statBars{
+    margin-bottom: 4vh;
+}
+
+.statBars h3{
+    font-size: 3vh;
+    color: #555555;
+}
+
+h3 span{
+    color:#E93656;
+}
+
+.myContactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #131A36;
+    color: white;
+}
+
+.contactInfo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 4vh 0;
+}
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.myContactInfo h2 {
+    font-family: "Glacial-Bold";
+    font-size: 4vh;
+    margin: 2vh 0;
+}
+
+.myContactInfo span {
+    font-family: "Muli";
+    font-size: 2vh;
+    color: #DFDFDF;
+    margin-bottom: 5px;
+}
+/* About Me Details Section End */
+
+
+
+/* Sevices Section Start */
+.services {
+    margin: 15vh 0 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.serviceOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.sevisePannel {
+    width: 285px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 10px 10px;
+}
+
+.sevisePannel:hover .activeService,
+.sevisePannel:active .activeService{
+    opacity: 1;
+}
+
+.activeService {
+    opacity: 0;
+    position: absolute;
+    width: 285px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #15263E;
+}
+
+.activeService h3 {
+    font-family: "Glacial-Bold";
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.activeService p {
+    margin-top: 19px!important;
+    font-family: "Muli-Light"!important;
+    color: #ECECEC;
+    text-align: center!important;
+    width: 80%;
+}
+
+.sevisePannel p {
+    font-family: "Glacial-Bold";
+    font-size: 22px;
+    text-align: center;
+    margin-top: 16px;
+}
+/* Sevices Section End */
+
+
+/* Recomendations Section Start */
+
+.recommedations {
+
+    color: #FFFFFF;
+    background-image: url(/img/clip.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.recomSliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recomSliderItem {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recomSliderItem p {
+    width: 50%;
+    text-align: left;
+    font-size: 2vh;
+    font-family: "Roboto-Light";
+    margin: 7vh 0;
+}
+
+.authorDetails img {
+    width: 25%;
+}
+
+.authorDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0;
+}
+
+.authorJob {
+    margin: 38px 0 9px;
+    color: #E93656;
+    font-size: 13px;
+    font-family: "Roboto-Regular";
+}
+
+.authorName {
+    font-size: 28px;
+    font-family: "Glacial-Bold";
+}
+
+.sliderControlDiv {
+    display: flex;
+}
+
+.sliderController {
+    border: 5px solid white;
+    background-color: transparent;
+    padding: 5px;
+    margin: 2vh 5vw;
+}
+
+.active, .sliderController:hover {
+    cursor: pointer;
+    border-color: #E93656;
+}
+
+/* Recomendations Section End */
