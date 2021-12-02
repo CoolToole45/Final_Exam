@@ -417,6 +417,10 @@
         display: none;
     }
 
+    .sliderControls {
+        display: none;
+    }
+
     .projectsContentDesktop {
         display: flex;
         align-items: flex-start;
@@ -444,18 +448,34 @@
         margin-bottom: 2vh;
         background-color: #15263E;
         color: white;
+        cursor: pointer;
+    }
+
+    .activeBtn {
+        cursor: pointer;
+        color: #E93656;
     }
     
-    .projectDisplay {
-        max-width: 1000px;
+    .projectDisplay ul {
+        max-width: 900px;
+        width: 100%;
         margin-left: 30px;
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .projectDisplay li img {
         width: 300px;
         height: 300px;
+    }
+    
+    .filterLi {
+        display: none;
+    }
+
+    .show {
+        display: block;
     }
     /* Latest Projects End */
 }

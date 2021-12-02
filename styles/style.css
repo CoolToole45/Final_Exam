@@ -312,7 +312,6 @@ h3 span{
 
 /* Recomendations Section Start */
 .recommedations {
-
     color: #FFFFFF;
     background-image: url(/img/clip.jpg);
     display: flex;
@@ -421,10 +420,6 @@ h3 span{
     border: 5px solid #E93656;
 }
 
-.projectsDisplaySliderArea {
-    height: 100%;
-}
-
 .projectsDisplaySliderArea div {
     width:100%;
     height: 100%;
@@ -452,13 +447,14 @@ h3 span{
 .sliderControls {
     display: flex;
     justify-content: space-evenly;
-    margin: 2vh 0;
+    width: 100%;
 }
 
 #prev svg {
     border: 2px solid #dad7d7;
     border-radius: 50%;
     background-color: #B3B3B3;
+    transform: rotate(360deg);
 }
 
 #next svg {

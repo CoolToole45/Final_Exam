@@ -268,44 +268,44 @@
             </div>
             <div class="projectsContentMobile">
                 <div class="projectsDisplaySliderArea">
-                     <div class="sliderItem" style="background-image: url('https://picsum.photos/1600/600')"><span class="sliderTitle">Work Ideas</span></div>
-                    <div class="sliderItem" style="background-image: url('https://picsum.photos/id/237/1600/600')"><span class="sliderTitle">Mockup</span></div>
-                    <div class="sliderItem" style="background-image: url('https://picsum.photos/id/870/1600/600')"><span class="sliderTitle">PSD Design</span></div>
-                    <div class="sliderItem" style="background-image: url('https://picsum.photos/id/423/1600/600')"><span class="sliderTitle">Logo</span></div>
-                    <div class="sliderItem" style="background-image: url('https://picsum.photos/id/123/1600/600')"><span class="sliderTitle">Presentation</span></div>
-                    <div class="sliderItem" style="background-image: url('https://picsum.photos/id/510/1600/600')"><span class="sliderTitle">Icons</span></div>
+                     <div class="sliderItem" style="background-image: url('img/project1.jpg')"><span class="sliderTitle">Work Ideas</span></div>
+                    <div class="sliderItem" style="background-image: url('img/project2.jpg')"><span class="sliderTitle">Mockup</span></div>
+                    <div class="sliderItem" style="background-image: url('img/project3.jpg')"><span class="sliderTitle">PSD Design</span></div>
+                    <div class="sliderItem" style="background-image: url('img/project4.jpg')"><span class="sliderTitle">Logo</span></div>
+                    <div class="sliderItem" style="background-image: url('img/project5.jpg')"><span class="sliderTitle">Presentation</span></div>
+                    <div class="sliderItem" style="background-image: url('img/project6.jpg')"><span class="sliderTitle">Icons</span></div>
                 </div>
-                <div class="sliderControls">
-                    <span class="iconArrowBack" id="prev">
-                        <svg height="50px" viewBox="0 0 512 512" width="50px" color="#fff" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 "/></svg>
-                    </span>
-                    <span class="iconArrowForward" id="next">
-                        <svg height="50px" viewBox="0 0 512 512" width="50px" color="#fff" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 "/></svg>
-                    </span>
-                </div>
+            </div>
+            <div class="sliderControls">
+                <span class="iconArrowBack" id="prev">
+                    <svg height="50px" viewBox="0 0 512 512" width="50px" color="#fff" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 "/></svg>
+                </span>
+                <span class="iconArrowForward" id="next">
+                    <svg height="50px" viewBox="0 0 512 512" width="50px" color="#fff" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 "/></svg>
+                </span>
             </div>
             <div class="projectsContentDesktop">
                 <div class="projectCategories">
                     <nav class="filterList">
-                        <ul>
-                            <li><button class="filterBtn"><span>All</span></button></li>
-                            <li><button class="filterBtn"><span>Work ideas</span></button></li>
-                            <li><button class="filterBtn"><span>Mockup</span></button></li>
-                            <li><button class="filterBtn"><span>PSD Design</span></button></li>
-                            <li><button class="filterBtn"><span>Logo</span></button></li>
-                            <li><button class="filterBtn"><span>Presentation</span></button></li>
-                            <li><button class="filterBtn"><span>Icons</span></button></li>
+                        <ul class="filterUl">
+                            <li><button class="filterBtn activeBtn" onclick="filterSelection('all')"><span>All</span></button></li>
+                            <li><button class="filterBtn" onclick="filterSelection('workIdeas')"><span>Work ideas</span></button></li>
+                            <li><button class="filterBtn" onclick="filterSelection('mockup')"><span>Mockup</span></button></li>
+                            <li><button class="filterBtn" onclick="filterSelection('psdDesign')"><span>PSD Design</span></button></li>
+                            <li><button class="filterBtn" onclick="filterSelection('logo')"><span>Logo</span></button></li>
+                            <li><button class="filterBtn" onclick="filterSelection('presentation')"><span>Presentation</span></button></li>
+                            <li><button class="filterBtn" onclick="filterSelection('icons')"><span>Icons</span></button></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="projectDisplay">
                     <ul>
-                        <li><img src="img/project1.jpg" alt="workIdeas"></li>
-                        <li><img src="img/project2.jpg" alt="mockup"></li>
-                        <li><img src="img/project3.jpg" alt="psdDesign"></li>
-                        <li><img src="img/project4.jpg" alt="logo"></li>
-                        <li><img src="img/project5.jpg" alt="presentation"></li>
-                        <li><img src="img/project6.jpg" alt="icons"></li>
+                        <li class="filterLi show workIdeas"><img src="img/project1.jpg" class="workIdeas" alt="workIdeas"></li>
+                        <li class="filterLi show mockup"><img src="img/project2.jpg" class="mockup" alt="mockup"></li>
+                        <li class="filterLi show psdDesign"><img src="img/project3.jpg" class="psdDesign" alt="psdDesign"></li>
+                        <li class="filterLi show logo"><img src="img/project4.jpg" class="logo" alt="logo"></li>
+                        <li class="filterLi show presentation"><img src="img/project5.jpg" class="presentation" alt="presentation"></li>
+                        <li class="filterLi show icons"><img src="img/project6.jpg" class="icons" alt="icons"></li>
                     </ul>
                 </div>
             </div>
