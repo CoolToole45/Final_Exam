@@ -82,3 +82,46 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = "flex";
 	dots[slideIndex - 1].className += " active";
 }
+
+
+// Latest Projects Slider For Mobile
+const projectSlides = document.querySelectorAll('.sliderItem');
+const slidesLength = projectSlides.length;
+const nextButton = document.querySelector('#next');
+const prevButton = document.querySelector('#prev');
+let activeIndex = 0;
+
+function renderSlider() {
+	projectSlides.forEach((element, index) => {
+    element.style.transform = `translateX(${100 * (index - activeIndex % slidesLength)}%)`;
+  })
+}
+
+renderSlider();
+
+function nextSlide() {
+  if(activeIndex === (slidesLength - 1)){
+    activeIndex = 0;
+  } else {
+    activeIndex = activeIndex + 1;
+  }
+
+  renderSlider();
+}
+
+function prevSlide() {
+  if(activeIndex === 0){
+    activeIndex = slidesLength - 1;
+  } else {
+    activeIndex = activeIndex - 1;
+  }
+
+  renderSlider();
+}
+
+nextButton.addEventListener('click', (e) => {
+  nextSlide();
+});
+prevButton.addEventListener('click', prevSlide);
+
+let intervalId = null;
