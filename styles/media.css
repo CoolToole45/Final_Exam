@@ -243,6 +243,24 @@
         justify-content: center;
         flex-direction: row;
     }
+
+    
+    .socialIcons {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .socialIcons div {
+        border: 2px solid #F9F9F9;
+        border-radius: 20%;
+        background-color: #F9F9F9;
+        padding: 1vh;
+    }
+
+    .socialIcons a {
+        color: black;
+    }
     
     .contactInfo {
         display: flex;
