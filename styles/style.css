@@ -486,3 +486,172 @@ h3 span{
     display: none;
 }
 /* Latest Projects End */
+
+
+/* Latest Articles Start */
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.subTitle span {
+    color: #2ED279;
+    font-size: 1.5vh;
+    font-family: "Glacial-Bold";
+}
+
+.mainTitle h2 {
+    color: #2E2E2E;
+    font-size: 8vh;
+    font-family: "Glacial-Bold";
+    text-align: center;
+}
+
+.latestArticleExamp {
+    background-color: #FAFAFA;
+}
+
+.articleLogo img {
+    margin: 3vh 0;
+}
+
+.paddedLogo img {
+    border-radius: 50%;
+    padding: 20px 25px;
+    background-color: antiquewhite;
+}
+
+.latersArticleInfo {
+    margin-left: 3vw;
+}
+
+.articleText span {
+    font-family: "Muli-Regular";
+    font-size: 1.5vh;
+    color: #888888;
+}
+
+.articleText h3 {
+    font-family: "Glacial-Bold";
+    font-size: 5vh;
+    margin: 0.5vh 0 3vh;
+    color: #161616;
+}
+
+.articleText p {
+    font-family: "Muli-Regular";
+    font-size: 2vh;
+    display: inline-block;
+}
+
+.latestArticleDate {
+    background-color: #15263E;
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0;
+}
+
+.latestArticleDate span {
+    color: #E93656;
+    font-family: "Glacial-Bold";
+    font-size: 4vh;
+}
+
+.latestArticleImg img {
+    width: 100%;
+    height: 100%;
+}
+/* Latest Articles End */
+
+
+/* Rosa Team Start */
+
+.rosaTeam {
+    margin-top: 5vh;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partnerBlock {
+    background-color: #15263E;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7vh;
+    transition: all 1s ease;
+}
+
+.partnerInfo {
+    visibility: hidden;
+    text-align: center;
+}
+
+.partnerInfo h3 {
+    color: #161616;
+    font-family: "Poppins-SemiBold";
+    font-size: 1.5vh;
+}
+
+.partnerInfo span {
+    color: #626262;
+    font-family: "Roboto-Light";
+    font-size: 1vh;
+}
+
+.partnerBlock:hover,
+.partnerBlock:active {
+    transform: scale(2.5, 2);
+    border: 3px solid #E93656;
+    background-color: white;
+}
+
+.partnerBlock:hover .partnerInfo,
+.partnerBlock:active .partnerInfo {
+    visibility: visible;
+    z-index: 1;
+}
+
+.partnerBlock i {
+    color: white;
+    position: absolute;
+}
+/* Rosa Team End */
+
+
+/* Contact Us Start */
+.contactUs {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/mapBG.jpg);
+}
+
+.formTitle {
+    text-align: center;
+    color: white;
+    margin-top: 11vh;
+}
+
+.formTitle h2 {
+    font-family: "Jaapokki-Regular";
+    font-size: 45px;
+}
+
+.formTitle p {
+    font-family: "Roboto-Light";
+    font-size: 17px;
+}
+
+/* Contact Us End */

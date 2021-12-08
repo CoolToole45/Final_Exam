@@ -356,7 +356,6 @@
     
     
     /* Recommendations Start */
-    
     .recommedations {
         height: 570px;
         display: flex;
@@ -496,4 +495,52 @@
         display: block;
     }
     /* Latest Projects End */
-}
+
+
+    /* Latest Articles Start */
+
+    .latestArticleExamp {
+        display: flex;
+    }
+
+    .articleText span {
+        font-size: 14px;
+    }
+
+    .articleText h3 {
+        font-size: 40px;
+    }
+
+    .articleText p {
+        font-size: 25px;
+        width: 73%;
+    }
+
+    .latestArticleDate {
+        padding: 0;
+        align-items: center;
+    }
+
+    .latestArticleDate span{
+        font-size: 30px;
+        transform: rotate(270deg);
+    }
+
+    .flexReverse {
+        flex-direction: row-reverse;
+    }
+
+    .latestArticleImg img {
+        width: 950px;
+    }
+    /* Latest Articles End */
+
+
+    /* Rosa Team Start */
+
+    .partners {
+        flex-direction: row;
+    }
+
+    /* Rosa Team End */
+}   

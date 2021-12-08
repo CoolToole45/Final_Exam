@@ -49,6 +49,11 @@
 }
 
 @font-face {
+	font-family: "Poppins-SemiBold";
+	src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
 	font-family: "Roboto-Regular";
 	src: url(../fonts/Roboto-Regular.ttf);
 }
@@ -56,4 +61,9 @@
 @font-face {
 	font-family: "Roboto-Light";
 	src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: "Jaapokki-Regular";
+	src: url(../fonts/Jaapokki-Regular.otf);
 }
