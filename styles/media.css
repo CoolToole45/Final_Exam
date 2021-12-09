@@ -142,11 +142,6 @@
         flex-direction: row;
     }
     
-    .wrapper {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-    
     .myDesc {
         width: 22%;
         text-align: right;
@@ -497,8 +492,8 @@
     /* Latest Projects End */
 
 
-    /* Latest Articles Start */
 
+    /* Latest Articles Start */
     .latestArticleExamp {
         display: flex;
     }
@@ -536,11 +531,34 @@
     /* Latest Articles End */
 
 
-    /* Rosa Team Start */
 
+    /* Rosa Team Start */
     .partners {
         flex-direction: row;
     }
-
     /* Rosa Team End */
+
+
+    /* Contact Us Start */
+    .contactForm {
+        width: 59%;
+    }
+
+    .mainForm {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mainForm textarea {
+        width: 97%;
+    }
+
+    .mainForm label {
+        margin: 0 10px;
+    }
+
+    .mainForm button {
+        width: 25%;
+    }
+    /* Contact Us End */
 }   

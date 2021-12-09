@@ -38,7 +38,7 @@
 .aboutMe01Text span {
     font-size: 2.3vh;
     font-family: "Poppins-ExtraBold";
-    color: #373737;
+    color: #E93656;
     position: absolute;
     transform: translateY(-260%);
 }
@@ -165,7 +165,7 @@ li {
 }
 
 .myStats{
-    margin-top: 10vh;
+    margin: 10vh;
     margin-left: 11vw;
     font-family: "Glacial-Bold";
     display: flex;
@@ -449,9 +449,8 @@ h3 span{
 }
 
 .projectsDisplaySliderArea span{
-    height: 5vh;
     position: absolute;
-    top:90%;
+    top:85%;
     padding: 0 20px;
     background-color: rgba(0, 0, 0, 0.4);
     color:#fff;
@@ -545,6 +544,7 @@ h3 span{
     font-family: "Muli-Regular";
     font-size: 2vh;
     display: inline-block;
+    margin-bottom: 1vh;
 }
 
 .latestArticleDate {
@@ -635,18 +635,20 @@ h3 span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/mapBG.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/mapBG.jpg);
 }
 
 .formTitle {
     text-align: center;
     color: white;
     margin-top: 11vh;
+    margin-bottom: 5vh;
 }
 
 .formTitle h2 {
     font-family: "Jaapokki-Regular";
     font-size: 45px;
+    margin-bottom: 1vh;
 }
 
 .formTitle p {
@@ -654,4 +656,39 @@ h3 span{
     font-size: 17px;
 }
 
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainForm input, textarea {
+    font-family: "Poppins-SemiBold";
+    padding: 2vh 6vw 2vh 2vw;
+    margin-bottom: 3vh;
+    resize: none;
+}
+
+.mainForm input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.mainForm button {
+    color: #E93656;
+    background: none;
+    border: 5px solid #E93656;
+    font-family: "Glacial-Bold";
+    font-size: 3vh;
+    padding: 2vh 0;
+    margin: 1vh 0;
+    transition: all 1s ease;
+}
+
+.mainForm button:hover,
+.mainForm button:active {
+    background-color: #E93656;
+    color: white;
+    border-color: white;
+}
 /* Contact Us End */
