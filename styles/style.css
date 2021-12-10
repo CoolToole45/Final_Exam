@@ -151,6 +151,7 @@ li {
     color: white;
     background-color: #E93656;
     border: 4px solid #E93656;
+    transition: all 1s ease;
 }
 
 .hireMeBtn button:hover,
@@ -247,6 +248,7 @@ h3 span{
     padding: 40px;
     border: 4px dotted;
     border-radius: 50%;
+    transition: all 0.5s ease;
 }
 
 .contactIcon:hover,
@@ -274,7 +276,7 @@ h3 span{
     max-width: 1200px;
 }
 
-.sevisePannel {
+.servisePannel {
     width: 285px;
     height: 360px;
     display: flex;
@@ -286,9 +288,10 @@ h3 span{
     margin: 0 0 10px 10px;
 }
 
-.sevisePannel:hover .activeService,
-.sevisePannel:active .activeService{
+.servisePannel:hover .activeService,
+.servisePannel:active .activeService{
     opacity: 1;
+    transition: all 0.5s ease;
 }
 
 .activeService {
@@ -318,7 +321,7 @@ h3 span{
     width: 80%;
 }
 
-.sevisePannel p {
+.servisePannel p {
     font-family: "Glacial-Bold";
     font-size: 22px;
     text-align: center;
@@ -329,9 +332,10 @@ h3 span{
 
 
 /* Recomendations Section Start */
-.recommedations {
+.recommendations {
     color: #FFFFFF;
     background-image: url(/img/clip.jpg);
+    background-color: #15263E;
     display: flex;
     justify-content: center;
 }
@@ -664,7 +668,7 @@ h3 span{
 
 .mainForm input, textarea {
     font-family: "Poppins-SemiBold";
-    padding: 2vh 6vw 2vh 2vw;
+    padding: 2vh 3vw 2vh 2vw;
     margin-bottom: 3vh;
     resize: none;
 }
@@ -692,3 +696,64 @@ textarea:focus {
     border-color: white;
 }
 /* Contact Us End */
+
+
+
+/* Roca Final Start */
+.rocaFinal {
+    background-color: #282828;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rocaFinalTitle {
+    font-family: "Poppins-ExtraBold";
+    font-size: 10vh;
+    margin-top: 5vh;
+}
+
+.pinkDot {
+    color: #E93656;
+}
+
+.rocaFinalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rocaFinalText {
+    color: #A5A5A5;
+    font-family: "Roboto-Regular";
+    text-align: center;
+    font-size: 2.5vh;
+    margin-top: 3vh;
+}
+
+.rocaFinalIcons i {
+    color: #30bdbd;
+    margin: 3vh;
+    margin-right: 2vw;
+}
+/* Roca Final End */
+
+
+
+/* Footer Start */
+footer {
+    background-color: #171717;
+    color: #A0A8B7;
+    text-align: center;
+}
+
+.footerText {
+    padding: 3vh 0;
+}
+
+.footerText a {
+    text-decoration: none;
+    color: white;
+}
+/* Footer End */

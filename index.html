@@ -148,7 +148,7 @@
             </div>
             <div class="contactInfo">
                 <div class="contactIcon">
-                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
                 </div>
                 <div class="infoText">
                     <h2>User Adress</h2>
@@ -170,7 +170,7 @@
     </section>
     <section class="services">
         <div class="serviceOptions">
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item1.svg" alt="graphicsDesign">
                 <p>Graphics Design</p>
                 <div class="activeService">
@@ -178,7 +178,7 @@
                     <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item2.svg" alt="bestService">
                 <p>Best Service</p>
                 <div class="activeService">
@@ -186,7 +186,7 @@
                     <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item7.svg" alt="helpfulSupport">
                 <p>Helpful Support</p>
                 <div class="activeService">
@@ -194,7 +194,7 @@
                     <p>LLorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item3.svg" alt="pixelPerfect">
                 <p>Pixel Perfect</p>
                 <div class="activeService">
@@ -202,7 +202,7 @@
                     <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item4.svg" alt="uniqueIdeas">
                 <p>Unique Ideas</p>
                 <div class="activeService">
@@ -210,7 +210,7 @@
                     <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item5.svg" alt="designAnalysis">
                 <p>Design Analysis</p>
                 <div class="activeService">
@@ -218,7 +218,7 @@
                     <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item6.svg" alt="fullyManaged">
                 <p>Fully Managed</p>
                 <div class="activeService">
@@ -226,7 +226,7 @@
                     <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
                 </div>
             </div>
-            <div class="sevisePannel">
+            <div class="servisePannel">
                 <img src="img/services-item7.svg" alt="helpfulSupport">
                 <p>Helpful Support</p>
                 <div class="activeService">
@@ -236,7 +236,7 @@
             </div>
         </div>
     </section>
-    <section class="recommedations">
+    <section class="recommendations">
         <div class="recomSliderContainer">
             <div class="recomSliderItem">
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..</p>
@@ -445,21 +445,43 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
         <div class="contactForm">
-            <form action="http://api.kesho.me/v1/user-test/contact" class="mainForm">
-                <label for="fname">
-                    <input type="text" name="fname" id="" required placeholder="Your Name">
+            <form method="post" action="http://api.kesho.me/v1/user-test/contact" class="mainForm">
+                <label for="fname" class="inputContainer">
+                    <input type="text" name="fname" id="fname" required placeholder="Your Name">
                 </label>
-                <label for="email">
-                    <input type="email" name="email" id="" required placeholder="Email Address">
+                <label for="email" class="inputContainer">
+                    <input type="email" name="email" id="email" required placeholder="Email Address">
                 </label>
-                <label for="website">
-                    <input type="url" name="website" id="" required placeholder="Your Website">
+                <label for="website" class="inputContainer">
+                    <input type="url" name="website" id="website" required placeholder="Your Website">
                 </label>    
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea name="message" class="inputContainer" id="message" cols="30" rows="10" required maxlength="910" placeholder="Message"></textarea>
                 <button type="submit">SEND MESSAGE</button>
             </form>
         </div>
     </section>
+    <section class="rocaFinal">
+        <div class="rocaFinalTitle">
+            Roca
+            <span class="pinkDot">.</span>
+        </div>
+        <div class="rocaFinalInfo">
+            <div class="rocaFinalText">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+            </div>
+            <div class="rocaFinalIcons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footerText">© All right reserved 2019. <a href="#">Rosa</a> - Creative Agency Website PSD Template.</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>

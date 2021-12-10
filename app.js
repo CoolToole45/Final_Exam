@@ -163,3 +163,7 @@ function removeClass(element, name) {
 	}
 	element.className = arr1.join(" ");
 }
+
+
+
+// Form Validation

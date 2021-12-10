@@ -69,6 +69,7 @@
     
     .sliderArea img {
         width: 100%;
+        border: 4px double #E93656;
     }
     
     .hiSection {
@@ -351,7 +352,7 @@
     
     
     /* Recommendations Start */
-    .recommedations {
+    .recommendations {
         height: 570px;
         display: flex;
         justify-content: center;
@@ -526,7 +527,7 @@
     }
 
     .latestArticleImg img {
-        width: 950px;
+        width: 49.5vw;
     }
     /* Latest Articles End */
 
@@ -549,6 +550,10 @@
         flex-wrap: wrap;
     }
 
+    .mainForm input {
+        padding: 2vh 6vw 2vh 2vw;
+    }
+
     .mainForm textarea {
         width: 97%;
     }
@@ -561,4 +566,21 @@
         width: 25%;
     }
     /* Contact Us End */
+
+
+    /* Roca Final Start */
+
+    .rocaFinalTitle {
+        margin-top: 15vh;
+    }
+
+    .rocaFinalText {
+        width: 50%;
+    }
+
+    .rocaFinalIcons i {
+        margin: 8vh 0.5vw;
+    }
+
+    /* Roca Final End */
 }   
