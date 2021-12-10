@@ -167,3 +167,56 @@ function removeClass(element, name) {
 
 
 // Form Validation
+const form = document.querySelector('.mainForm');
+const fullName = document.getElementById('fname');
+const email = document.getElementById('email');
+const website = document.getElementById('website');
+
+form.addEventListener('submit', e => {
+	e.preventDefault();
+	
+	checkInputs();
+});
+
+function checkInputs() {
+	// trim to remove the whitespaces
+	const fullNameValue = fullName.value.trim();
+	const emailValue = email.value.trim();
+	const websiteValue = website.value.trim();
+	
+	if(fullNameValue === '') {
+		setErrorFor(fullName, 'Full name cannot be blank');
+	} else {
+		setSuccessFor(fullName);
+	}
+	
+	if(emailValue === '') {
+		setErrorFor(email, 'Email cannot be blank');
+	} else if (!isEmail(emailValue)) {
+		setErrorFor(email, 'Not a valid email');
+	} else {
+		setSuccessFor(email);
+	}
+	
+	if(websiteValue === '') {
+		setErrorFor(website, 'URL cannot be blank');
+	} else {
+		setSuccessFor(website);
+	}
+}
+
+function setErrorFor(input, message) {
+	const formControl = input.parentElement;
+	const small = formControl.getElementsByClassName('errorMS');
+	formControl.className = 'formControl error';
+	small.innerText = message;
+}
+
+function setSuccessFor(input) {
+	const formControl = input.parentElement;
+	formControl.className = 'formControl success';
+}
+	
+function isEmail(email) {
+	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}

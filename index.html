@@ -446,16 +446,25 @@
         </div>
         <div class="contactForm">
             <form method="post" action="http://api.kesho.me/v1/user-test/contact" class="mainForm">
-                <label for="fname" class="inputContainer">
-                    <input type="text" name="fname" id="fname" required placeholder="Your Name">
-                </label>
-                <label for="email" class="inputContainer">
-                    <input type="email" name="email" id="email" required placeholder="Email Address">
-                </label>
-                <label for="website" class="inputContainer">
-                    <input type="url" name="website" id="website" required placeholder="Your Website">
-                </label>    
-                <textarea name="message" class="inputContainer" id="message" cols="30" rows="10" required maxlength="910" placeholder="Message"></textarea>
+                <div class="formControl">
+                    <label for="fname">
+                        <input type="text" name="fname" id="fname"  placeholder="Your Name">
+                    </label>
+                    <small class="errorMS">Error message</small>
+                </div>
+                <div class="formControl">
+                    <label for="email">
+                        <input type="email" name="email" id="email"  placeholder="Email Address">
+                    </label>
+                    <small class="errorMS">Error message</small>
+                </div>
+                <div class="formControl">
+                    <label for="website">
+                        <input type="url" name="website" id="website"  placeholder="Your Website">
+                    </label>
+                    <small class="errorMS">Error message</small>
+                </div>
+                <textarea name="message" id="message" cols="30" rows="10"  maxlength="910" placeholder="Message"></textarea>
                 <button type="submit">SEND MESSAGE</button>
             </form>
         </div>
