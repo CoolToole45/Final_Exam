@@ -678,6 +678,11 @@ textarea:focus {
     outline: none;
 }
 
+.formControl {
+    display: flex;
+    flex-direction: column;
+}
+
 .formControl small {
     display: flex;
     justify-content: center;
@@ -694,6 +699,10 @@ textarea:focus {
 
 .formControl.error small {
 	visibility: visible;
+    color: #e74c3c;
+    font-family: "Poppins-SemiBold";
+    font-size: 3vh;
+    margin-bottom: 3vh;
 }
 
 .mainForm button {
@@ -731,7 +740,7 @@ textarea:focus {
     background-color: #f4f4f4;
     margin: 3% auto 20%;
     padding: 30px;
-    width: 60%;
+    width: 80%;
     font-family: "Poppins-SemiBold";
     font-size: 30px;
     display: flex;

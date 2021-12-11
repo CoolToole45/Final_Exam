@@ -548,6 +548,7 @@
     .mainForm {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .mainForm input {
@@ -558,10 +559,6 @@
         width: 97%;
     }
 
-    .mainForm label {
-        margin: 0 10px;
-    }
-
     .mainForm button {
         width: 25%;
     }
@@ -569,7 +566,6 @@
 
 
     /* Roca Final Start */
-
     .rocaFinalTitle {
         margin-top: 15vh;
     }
@@ -581,6 +577,5 @@
     .rocaFinalIcons i {
         margin: 8vh 0.5vw;
     }
-
     /* Roca Final End */
 }   

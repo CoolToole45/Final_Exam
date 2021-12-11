@@ -167,7 +167,7 @@ function removeClass(element, name) {
 
 
 // Form Validation
-const form = document.querySelector('.mainForm');
+const form = document.getElementById('mainForm');
 const fullName = document.getElementById('fname');
 const email = document.getElementById('email');
 const website = document.getElementById('website');
@@ -207,7 +207,7 @@ function checkInputs() {
 
 function setErrorFor(input, message) {
 	const formControl = input.parentElement;
-	const small = formControl.getElementsByClassName('errorMS');
+	const small = formControl.querySelector('small');
 	formControl.className = 'formControl error';
 	small.innerText = message;
 }
