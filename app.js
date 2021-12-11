@@ -229,15 +229,15 @@ const closeModalBtn = document.getElementById('closeBtn');
 openModalBtn.addEventListener('click', openModal);
 
 function openModal() {
-  mainModal.style.display = "block";
+	mainModal.style.display = "block";
 }
 
 closeModalBtn.addEventListener('click', closeModal);
 
 function closeModal() {
-  if(mainModal.style.display == "block") {
-    mainModal.style.display = "none";
-  } else {
-    mainModal.style.display = "block";
-  }
+	if(mainModal.style.display == "block") {
+    	mainModal.style.display = "none";
+  	} else {
+    	mainModal.style.display = "block";
+  	}
 }

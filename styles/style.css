@@ -705,6 +705,7 @@ textarea:focus {
     padding: 2vh 0;
     margin: 1vh 0;
     transition: all 1s ease;
+    cursor: pointer;
 }
 
 .mainForm button:hover,
