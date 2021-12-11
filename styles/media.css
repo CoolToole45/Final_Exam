@@ -369,6 +369,8 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
+        width: 100%;
+        max-width: 1200px;
     }
     
     .recomSliderItem p {
